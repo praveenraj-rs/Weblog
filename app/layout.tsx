@@ -1,6 +1,5 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
-import { icons } from "react-icons";
 
 export const metadata = {
   title: "Weblog",

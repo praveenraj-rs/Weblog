@@ -10,7 +10,7 @@ export default function ListItem({ post }: Props) {
   const formattedDate = getFormattedDate(date);
 
   return (
-    <li className="mt-4 text-2xl font-bold dark:text-white/90">
+    <li className="mt-4 text-2xl font-bold">
       <Link className="hover:text-black/70" href={`./posts/${id}`}>
         {title}
       </Link>

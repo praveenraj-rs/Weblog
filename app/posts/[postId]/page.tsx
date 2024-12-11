@@ -39,7 +39,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
   const pubDate = getFormattedDate(date);
 
   return (
-    <main className="px-6 prose prose-xl prose-slate dark:prose-invert mx-auto">
+    <main className="px-6 prose prose-xl prose-slate mx-auto">
       <h1 className="text-3xl mt-7 mb-0">{title}</h1>
       <p className="mt-0">{pubDate}</p>
       <article>
