@@ -1,5 +1,5 @@
 ---
-title: "My Log App"
+title: "Weblog App"
 date: "2024-12-11"
 ---
 
